@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forgot Password</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <form id="forgot-password-form">
+        <h1>Forgot Password</h1>
+        <input type="email" id="reset-email" placeholder="Email" required>
+        <input type="password" id="new-password" placeholder="New Password" required>
+        <input type="password" id="confirm-new-password" placeholder="Confirm New Password" required>
+        <button type="submit">Reset Password</button>
+    </form>
+</body>
+</html>
