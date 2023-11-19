@@ -1,0 +1,66 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, ol, li, div {
+    margin: 0;
+    padding: 0;
+    background-color: #00000000;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.template {
+    margin-top: 250px;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.icon {
+    font-size: 3em;
+    color: #3498db; /* Change the color to your preference */
+}
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50; /* Change the color to your preference */
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3498db; /* Change the color to your preference */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar{
+    margin-left: 500px;
+}
+
+.button:hover {
+    background-color: #2980b9; /* Change the color to your preference */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .content {
+        padding: 0 10px;
+    }
+}
