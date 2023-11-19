@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <form id="login-form">
+        <h1>Login</h1>
+        <input type="text" id="username-email" placeholder="Username or Email" required>
+        <input type="password" id="login-password" placeholder="Password" required>
+        <button type="submit">Log In</button>
+    </form>
+        <a href="{{url_for('forgot')}}" class = "button" >Forgot Password</a>
+</body>
+</html>
