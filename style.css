@@ -1,0 +1,126 @@
+/* Reset some default styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Center the forms on the page */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+    margin-left: 650px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*style for the add issues page*/
+/* Reset some default browser styles */
+body, h1, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some basic styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    color: #007BFF;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 16px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
